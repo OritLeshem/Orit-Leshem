@@ -1,25 +1,52 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Oritpic from './Oritpic.jpeg'
+import About from './Components/About/About'
+import Projects from './Components/Projects/Projects'
+import Skills from './Components/Skills/Skills'
+import Contact from './Components/Contact/Contact'
+import { Route, Switch, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <nav className='component'>
+          <div id='navdiv' className='navdiv'>
+              <p><Link to = '/about'>.I'm()</Link></p>
+              <p><Link to = '/projects'>.Projects()</Link></p>
+              <p><Link to = '/skills'>.skills()</Link></p>
+              <p><Link to = '/contact'>.contact()</Link></p>
+              <p><GitHubIcon id="icon"/></p>
+              <p><LinkedInIcon id="icon"/></p>
+              
+          </div>
+        </nav>
+        
+        <Switch>  
+          <Route path='/about' render={(props) => (
+          <About {...props}/>
+              )}/>
+          <Route path='/projects' render={(props) => (
+          <Projects {...props}/>
+              )}/>
+          <Route path='/skills' render={(props) => (
+          <Skills {...props}/>
+              )}/>
+          <Route path='/contact' render={(props) => (
+          <Contact {...props}/>
+              )}/>
+        </Switch>      
+
+        
+       
+      </div>
+    );
+  }
 }
+
 
 export default App;
