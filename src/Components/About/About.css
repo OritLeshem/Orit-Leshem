@@ -1,4 +1,6 @@
 @import "../../general.css";
+@import "../../App.css";
+
 
 
 /* fade content on image */
@@ -10,7 +12,7 @@
     width: 100%;
     height: 100%; background:url('../../Oritpic.jpeg'); 
     background-repeat: no-repeat;
-    background-size: 45vw;
+    background-size: 40vw;
     
 }
 .FadeAway{
@@ -20,7 +22,7 @@
         background: -moz-linear-gradient(top , rgba( 255, 255, 255, 0) 0%, var(--transparent-color) 100% );
         background: -ms-linear-gradient(top, rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 100% );
         background: -o-linear-gradient( top , rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 100% );
-        background: -webkit-linear-gradient( top , rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 95% );
+        background: -webkit-linear-gradient( top , rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 100% );
         /* background: -webkit-linear-gradient( left , rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 45% ); */
         
 }
@@ -31,30 +33,23 @@
         background: -moz-linear-gradient(left , rgba( 255, 255, 255, 0) 0%, var(--transparent-color) 100% );
         background: -ms-linear-gradient(left, rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 100% );
         background: -o-linear-gradient( left , rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 100% );
-        background: -webkit-linear-gradient( left , rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 75% );
+        background: -webkit-linear-gradient( left , rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 65% );
         /* background: -webkit-linear-gradient( left , rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 45% ); */
        
         
 }
     
 
-.aboutpic{
 
-    position: fix;
-    transform: scaleX(-1);
-    display: block;
-    top: 0;
-    left: 0;
-    width: 40%;
-    height: 100%;
-    border-radius: 100px 100px 100px 0px;
-    
+
+
+.discription{
+    display:block;
+    position: relative;
+    top: 20vh;
+    left: 50vw;
 }
 .aboutTitle{
-    position: absolute;
-    display: block;
-    top: 40vh;
-    left:50vw;
     font-size: 3rem;
     font-weight: 700;
     word-spacing: -.1em;
@@ -65,10 +60,6 @@
 
 }
 .aboutContent{
-    position: absolute;
-    display: block;
-    top: 65vh;
-    left:50vw;
     font-size: 1rem;
     font-weight: 700;
     word-spacing: -.1em;
@@ -78,10 +69,6 @@
     color: var(--second-color);
 }
 .aboutSkillsTitle {
-    position: absolute;
-    display: block;
-    top: 75vh;
-    left:50vw;
     font-size: 1rem;
     font-weight: 700;
     word-spacing: -.1em;
@@ -93,53 +80,105 @@
     
 }
 .aboutSkills{
-    position: absolute;
-    display: block;
-    top: 79vh;
-    left:50vw;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
+    
     margin-right: -25vw;
     padding-right: 1rem;
+    font-family: Verdana;
     color: var(--second-color);
     opacity: 0.8;
 }
 
-.aboutResume{
-    position: absolute;
-    display: block;
-    top: 60vh;
-    left:55vw;
-    font-size: 0.6rem;
-    margin-right: -25vw;
-    padding-right: 1rem;
-    color: var(--second-color);
-    opacity: 0.8;
-}
+
 #GitHubIcon{
     color: var(--second-color);
-
-    left:50vw;
-    width: 14px;
+    width: 16px;
 }
 #LinkedInIcon{
     color: var(--second-color);
-
     top: 60vh;
     left:52vw;
-    width: 14px;
+    width: 17px;
     
 
 }
 .buttonResume{
     font-family: Roboto;
     font-size: 0.5rem;
-    position: absolute;
-    display: block;
-    top: 61vh;
-    left:63vw;
     border-radius: 5px;
     color: var(--main-color);
     background-color:var(--second-color); ;
-    opacity: 0.6;
+    opacity: 0.4;
 
 }
+#rectangle{
+    position: relative;
+    top: 50vh;
+    left: 46.3vw;
+    width: 0.3px;
+    height: 200px;
+    background: var(--third-color);
+    
+  }
+.lineAnimation{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius:25px; 
+    border:solid 0.25px var(--third-color);
+    background-color: var(--main-color);
+    position: relative;
+    top: 50vh;
+    left: 50vw;
+    animation-name: example;
+    animation-duration: 3.5s;
+    display: none;
+}
+
+      
+@keyframes example {
+    0%  {background-color:yelow; left:45vw; top:100px;}
+    100% {background-color:yelow; left:45vw; top:-100px;}
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .content{ 
+        position:absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+         background:url('../../Oritpic.jpeg'); 
+        background-repeat: no-repeat;
+        background-size: 100vw; 
+        
+    }
+    
+    .FadeAway-left{
+        display: none;
+            
+    }
+    .FadeAway{
+        position: absolute; top:0px; left:0px; width:100vw; height:100vh;
+            background:transparent;
+            background: linear-gradient(top, rgba( 255, 255, 255, 255 ) 0%, var(--transparent-color) 100%);
+            background: -moz-linear-gradient(top , rgba( 255, 255, 255, 0) 0%, var(--transparent-color) 100% );
+            background: -ms-linear-gradient(top, rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 100% );
+            background: -o-linear-gradient( top , rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 100% );
+            background: -webkit-linear-gradient( top , rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 70% );
+            /* background: -webkit-linear-gradient( left , rgba( 255, 255, 255, 0 ) 0%, var(--transparent-color) 45% ); */
+    }      
+    
+    .discription{
+        display:block;
+        top: 55vh;
+        left: 0vw;;
+        
+    }
+
+
+
+}    

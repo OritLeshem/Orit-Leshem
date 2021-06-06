@@ -1,33 +1,38 @@
 import './About.css';
-import Oritpic from '../../Oritpic.jpeg'
+import '../../App.js'
+
+
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 function About(props){
     return(
-        <>
-            {/* <div className="content"></div>
+        <div>
+            <div className="content"></div>
             <div className="FadeAway"></div>
-            <div className="FadeAway-left"></div> */}
-            <div>
-            <h2 className = 'aboutTitle'>I'm() </h2>
-            <h2 >download my  </h2>
-            <button className = 'buttonResume'>resume </button>
-
-            <p><GitHubIcon className = 'aboutResume'id="GitHubIcon"/></p>
-            <p><LinkedInIcon className = 'aboutResume'id="LinkedInIcon"/></p>
-            <h3 className = 'aboutContent'>
-                I'm a full stack developer.
-                <br/> based in London Ontario, Canada
-                <br/>
-                <h4>tools:</h4>
-                <h5>JavaScript  CSS  HTML Python Node.js  react  Django<br/>
-                                              Github Heroko ASW MongoDB Mongoose psql  <br/></h5>
-            </h3>
+            <div className="FadeAway-left"></div>
+            <div className ="discription">
+                    <h1 className = 'aboutTitle'>I'm() </h1>
+                    <p><GitHubIcon className id="GitHubIcon"/></p>
+                    <p><LinkedInIcon className id="LinkedInIcon"/></p>
+                    <p className='aboutSkills' >download my   <button className = 'buttonResume'>resume </button> </p>
+                    <h2 className='aboutContent'> I'm a full stack developer.
+                        <br/> based in London Ontario, Canada
+                        <br/>
+                        <br/>
+                    </h2>    
+                        <h2 className='aboutSkillsTitle'>tools:</h2>
+                        <span className='aboutSkills'>JavaScript  CSS  HTML Python Node.js  react  Django<br/>
+                        Github Heroko ASW MongoDB Mongoose psql <br/> </span>
+                        
+                    
             
            </div>
+           {/* <div id='rectangle'></div>
+           <div className='lineAnimation'></div>   */}
+             
     
-        </>
+        </div>
     )
 }
 

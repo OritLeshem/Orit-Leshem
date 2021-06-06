@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Oritpic from './Oritpic.jpeg'
 import About from './Components/About/About'
 import Projects from './Components/Projects/Projects'
-import Skills from './Components/Skills/Skills'
 import Contact from './Components/Contact/Contact'
 import { Route, Switch, Redirect } from 'react-router-dom';
 import { Link } from 'react-router-dom';
@@ -18,7 +16,6 @@ class App extends Component {
           <div id='navdiv' className='navdiv'>
               <p><Link to = '/about'>.I'm()</Link></p>
               <p><Link to = '/projects'>.Projects()</Link></p>
-              <p><Link to = '/skills'>.skills()</Link></p>
               <p><Link to = '/contact'>.contact()</Link></p>
               <p><GitHubIcon id="icon"/></p>
               <p><LinkedInIcon id="icon"/></p>
@@ -33,9 +30,7 @@ class App extends Component {
           <Route path='/projects' render={(props) => (
           <Projects {...props}/>
               )}/>
-          <Route path='/skills' render={(props) => (
-          <Skills {...props}/>
-              )}/>
+          
           <Route path='/contact' render={(props) => (
           <Contact {...props}/>
               )}/>
