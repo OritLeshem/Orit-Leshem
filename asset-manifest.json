@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/OritLeshem/Orit-Leshem.git/static/css/main.7a28bd0b.chunk.css",
-    "main.js": "/OritLeshem/Orit-Leshem.git/static/js/main.9b005c09.chunk.js",
-    "main.js.map": "/OritLeshem/Orit-Leshem.git/static/js/main.9b005c09.chunk.js.map",
-    "runtime-main.js": "/OritLeshem/Orit-Leshem.git/static/js/runtime-main.04783fea.js",
-    "runtime-main.js.map": "/OritLeshem/Orit-Leshem.git/static/js/runtime-main.04783fea.js.map",
-    "static/js/2.9f766c42.chunk.js": "/OritLeshem/Orit-Leshem.git/static/js/2.9f766c42.chunk.js",
-    "static/js/2.9f766c42.chunk.js.map": "/OritLeshem/Orit-Leshem.git/static/js/2.9f766c42.chunk.js.map",
-    "static/js/3.f1cd0ae3.chunk.js": "/OritLeshem/Orit-Leshem.git/static/js/3.f1cd0ae3.chunk.js",
-    "static/js/3.f1cd0ae3.chunk.js.map": "/OritLeshem/Orit-Leshem.git/static/js/3.f1cd0ae3.chunk.js.map",
-    "index.html": "/OritLeshem/Orit-Leshem.git/index.html",
-    "static/css/main.7a28bd0b.chunk.css.map": "/OritLeshem/Orit-Leshem.git/static/css/main.7a28bd0b.chunk.css.map",
-    "static/js/2.9f766c42.chunk.js.LICENSE.txt": "/OritLeshem/Orit-Leshem.git/static/js/2.9f766c42.chunk.js.LICENSE.txt",
-    "static/media/About.css": "/OritLeshem/Orit-Leshem.git/static/media/Oritpic.72d2be18.jpeg"
+    "main.css": "/Orit-Leshem/static/css/main.690afbbf.chunk.css",
+    "main.js": "/Orit-Leshem/static/js/main.9b005c09.chunk.js",
+    "main.js.map": "/Orit-Leshem/static/js/main.9b005c09.chunk.js.map",
+    "runtime-main.js": "/Orit-Leshem/static/js/runtime-main.e0fc8f21.js",
+    "runtime-main.js.map": "/Orit-Leshem/static/js/runtime-main.e0fc8f21.js.map",
+    "static/js/2.9f766c42.chunk.js": "/Orit-Leshem/static/js/2.9f766c42.chunk.js",
+    "static/js/2.9f766c42.chunk.js.map": "/Orit-Leshem/static/js/2.9f766c42.chunk.js.map",
+    "static/js/3.f1cd0ae3.chunk.js": "/Orit-Leshem/static/js/3.f1cd0ae3.chunk.js",
+    "static/js/3.f1cd0ae3.chunk.js.map": "/Orit-Leshem/static/js/3.f1cd0ae3.chunk.js.map",
+    "index.html": "/Orit-Leshem/index.html",
+    "static/css/main.690afbbf.chunk.css.map": "/Orit-Leshem/static/css/main.690afbbf.chunk.css.map",
+    "static/js/2.9f766c42.chunk.js.LICENSE.txt": "/Orit-Leshem/static/js/2.9f766c42.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/Orit-Leshem/static/media/Oritpic.72d2be18.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.04783fea.js",
+    "static/js/runtime-main.e0fc8f21.js",
     "static/js/2.9f766c42.chunk.js",
-    "static/css/main.7a28bd0b.chunk.css",
+    "static/css/main.690afbbf.chunk.css",
     "static/js/main.9b005c09.chunk.js"
   ]
 }
