@@ -1,15 +1,12 @@
 :root {
-    --main-color: rgb(14, 18, 18);
-    --second-color: #dbdbdb;
-    --third-color:rgb(248, 233, 22);
-    --transparent-color: rgba(14,18,18,1)
-  }
-  /* :root {
-    --main-color: rgb(247, 243, 243);
-    --second-color: #696666;
-    --third-color:rgb(248, 22, 180);
-    --transparent-color: rgba(247, 243, 243,1)  /* same as main color,1 for transparency */
-  /* }  */
-
-  
-  
+  --main-color: rgb(14, 18, 18);
+  --second-color: #dbdbdb;
+  --third-color: rgb(248, 233, 22);
+  --transparent-color: rgba(14, 18, 18, 1);
+}
+/* :root {
+  --main-color: rgb(247, 243, 243);
+  --second-color: #696666;
+  --third-color: rgb(248, 22, 180);
+  --transparent-color: rgba(247, 243, 243, 1);
+} */
